@@ -1,0 +1,17 @@
+1. Status
+현재 폴더의 Git 상태를 확인해.
+어떤 브랜치인지, GitHub 원격 저장소가 연결되어 있는지, 수정된 파일이 있는지, 최근 커밋이 뭔지 보여줘.
+2. Start work: git pull
+작업 시작 전에 GitHub의 최신 내용을 현재 폴더로 가져와.
+PC/노트북을 번갈아 쓸 때는 작업 시작 전에 이걸 먼저 누르면 좋아.
+3. Finish work: add, commit, push
+작업을 끝낸 뒤 변경된 파일을 Git에 추가하고, 커밋하고, GitHub에 업로드해.
+커밋 메시지를 입력한 다음 Y를 눌러야 실행돼.
+4. Initial setup: init, first commit, first push
+아직 Git이 설정되지 않은 새 폴더를 GitHub 저장소에 처음 올릴 때 써.
+git init → main 브랜치 설정 → GitHub 주소 연결 → 첫 커밋 → 첫 푸시를 한 번에 해줘.
+5. Connect existing repo and first pull
+이미 GitHub에 저장소가 있고, 현재 폴더를 그 저장소와 처음 연결해서 받아오고 싶을 때 써.
+예를 들면 새 PC에서 빈 폴더를 만들고 기존 GitHub repo를 연결해 처음 가져오는 경우야.
+6. Exit
+앱을 종료해.

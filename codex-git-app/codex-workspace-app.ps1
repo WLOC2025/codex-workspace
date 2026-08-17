@@ -62,7 +62,10 @@ function Finish-CodexWork {
     Write-Host "Changes:" -ForegroundColor Yellow
     git status --short
 
-    $message = "Add codex workspace git app"
+    $message = Read-Host "Commit message"
+    if ([string]::IsNullOrWhiteSpace($message)) {
+        $message = "Update codex workspace"
+    }
 
     Write-Host ""
     Write-Host "Commit message:" -ForegroundColor Yellow

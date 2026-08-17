@@ -42,3 +42,6 @@ Git 앱 스크립트를 처음 추가했을 때
 Update codex workspace
 
 
+Update workspace app and usage guide
+
+
